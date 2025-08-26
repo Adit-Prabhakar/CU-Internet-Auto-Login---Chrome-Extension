@@ -80,6 +80,7 @@ CU-Internet-Auto-Login/
 ├── setup.html
 ├── setup.js
 ├── update.html
+├── feedback.html
 ├── icon.png
 ├── cuims.png
 ├── lms.png
