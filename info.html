@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CU Internet Auto Login - Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            animation: fadeIn 0.5s ease-in;
+            font-size: 16px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #2c3e50;
+            transition: color 0.3s;
+        }
+
+        h1:hover,
+        h2:hover {
+            color: #007bff;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .section:hover {
+            background-color: #f0f8ff;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #555;
+            text-align: center;
+        }
+
+        .footer small {
+            display: block;
+            font-size: 14px;
+        }
+
+        .logo {
+            width: 70px;
+            height: 70px;
+            vertical-align: middle;
+            margin-right: 2px;
+        }
+
+        .logo:hover {
+            transform: scale(1.2);
+        }
+
+        .feedback-button {
+            display: inline-block;
+            padding: 6px 10px;
+            background-color: #1976d2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .feedback-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><img src="icon.png" alt="CU Auto Login Logo" class="logo"> CU Auto Login Extension</h1>
+        <p>This extension Automatically logs you into University Internet Authentication portal, CUIMS and LMS.</p>
+
+        <p>CU Internet Auto Login is a lightweight Chrome extension that automatically logs you into the University’s
+            internet authentication portal, CUIMS and LMS. Once saved, your UID and Password are securely stored in
+            Chrome’s local storage, so you won’t need to re-enter them every time, even after restarting your browser or
+            computer.</p>
+
+        <div class="section">
+            <h2>🔧 Key Features</h2>
+            <ul>
+                <li>Auto login to <strong>CU Internet Authentication Portal</strong></li>
+                <li>Auto login to <strong>CUIMS</strong> & <strong>LMS</strong> </li>
+                <li>One-click logout option for CU Internet</li>
+                <li>Toggle button to enable or disable CUIMS auto login from the popup</li>
+                <li>Secure credential storage in Chrome local storage</li>
+                <li>Lightweight and user-friendly popup interface</li>
+                <li>Keyboard shortcut to open popup: <strong>Ctrl + Shift + Y</strong></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📋 Setup Instructions</h2>
+            <ol>
+                <li>Install the extension from the <a
+                        href="https://chromewebstore.google.com/detail/cghlldkonphebajalhncccpjahpliaea?utm_source=item-share-cb"
+                        target="_blank">Chrome Web Store</a>.</li>
+                <li>Click on the extension icon in the Chrome toolbar to open the popup.</li>
+                <li>Enter your:
+                    <ul>
+                        <li><strong>Student UID</strong></li>
+                        <li><strong>CU Internet Password</strong></li>
+                        <li><strong>CUIMS Password</strong></li>
+                    </ul>
+                </li>
+                <li>Click <strong>Save Credentials</strong> to store your information securely.</li>
+                <li>For quick access, click the <strong>puzzle icon 🧩</strong> on the top right of your
+                browser, then click the <strong>📌 pin icon</strong> next to "CU Internet Auto Login".</li>
+                <li>You're all set! The extension will auto-login you to CU Internet Authentication page, CUIMS and LMS
+                    when required.</li><br>
+                <strong>Note:</strong> If you want to log in to someone else's or your friend's CUIMS or LMS account
+                    from the same browser, make sure to <strong>Disable the CUIMS Auto Login toggle</strong> from the
+                    popup first. Otherwise, the extension will automatically attempt to login in your account using your own saved
+                    credentials.
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>💬 Feedback & Support</h2>
+            <p>Facing issues or have suggestions for improvement? Let me know:</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNqDHQEYlOvg2DJmC_KzhiKoBVj6Vl3ttAnHS4xBeC0yM3rg/viewform"
+                target="_blank" class="feedback-button">
+                Feedback & Support Form
+            </a>
+        </div>
+
+        <div class="section">
+            <h2>👨‍💻 Developer</h2>
+            <p><strong>Aditya Prabhakar</strong><br>
+                B.E. CSE, Chandigarh University<br>
+                LinkedIn: <a href="https://www.linkedin.com/in/aditya-prabhakar-6a068a268/" target="_blank">Connect with
+                    me</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            <small>© 2025 CU Internet Auto Login<br>Made with ❤️ for Chandigarh University students.</small>
+        </div>
+    </div>
+</body>
+
+</html>
